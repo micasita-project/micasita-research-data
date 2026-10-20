@@ -1,5 +1,7 @@
 # MiCasita — research data and code
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23510695.svg)](https://doi.org/10.5281/zenodo.23510695)
+
 Data, code and trained model supporting the paper *XGBoost-based travel-time correction in a hybrid expert system for commute-aware housing recommendation in Metropolitan Lima* (Astuyauri-Calderon, Calderon-Huaman, Castro-Veramendi; Universidad Peruana de Ciencias Aplicadas, Lima, Peru).
 
 MiCasita is a mobile application that ranks rental homes in Metropolitan Lima by the commute to the user's workplace. A routing engine (OSRM) estimates a free-flow travel time, an XGBoost regressor corrects it to a traffic-aware time, and an explicit scoring function (`match_score`, 0–100) combines the corrected time with budget, distance and floor area.
