@@ -1,0 +1,201 @@
+Escenario,Participante,Trabajo simulado,Presupuesto S/,Modo,Radio busqueda (km),Ranking Modelo,Vivienda ID,Distrito / Direccion,Precio S/,Area m2,Habitaciones,Tiempo corregido XGBoost (min),Tiempo OSRM crudo (min),Score
+1,P01,Hospital María Auxiliadora – Emergencias,1400,driving,10,1,VIV-618,Santiago de Surco — Calle Navarra 135,750.0,25.0,1,17,9,80.1
+1,P01,Hospital María Auxiliadora – Emergencias,1400,driving,10,2,VIV-574,Santiago de Surco — Pasaje Hermes,880.0,26.0,1,17,9,78.3
+1,P01,Hospital María Auxiliadora – Emergencias,1400,driving,10,3,VIV-1465,Santiago de Surco — Av Monte de los Olivos al 200,1100.0,27.0,1,15,8,77.5
+1,P01,Hospital María Auxiliadora – Emergencias,1400,driving,10,4,VIV-1895,Santiago de Surco — Avenida Tomás Marsano,1500.0,65.0,2,9,4,77.4
+1,P01,Hospital María Auxiliadora – Emergencias,1400,driving,10,5,VIV-637,"Santiago de Surco — Calle Los Albaricoques Nº164 ,Urbanización Valle Hermoso de Monterrico Santiago de Surco",1100.0,15.0,,19,8,71.1
+1,P01,Hospital María Auxiliadora – Emergencias,1400,driving,10,6,VIV-581,San Borja — Calle Pietro Mascagni,750.0,30.0,2,27,12,70.6
+1,P01,Hospital María Auxiliadora – Emergencias,1400,driving,10,7,VIV-559,Surquillo — Av. Tomás Marsano 2385,500.0,20.0,1,29,13,70.3
+1,P01,Hospital María Auxiliadora – Emergencias,1400,driving,10,8,VIV-609,Santiago de Surco — Cayo Roca Zela 120,1100.0,23.0,1,22,10,68.5
+1,P01,Hospital María Auxiliadora – Emergencias,1400,driving,10,9,VIV-635,Chorrillos — Tres Marias 300,500.0,10.0,1,28,15,68.0
+1,P01,Hospital María Auxiliadora – Emergencias,1400,driving,10,10,VIV-644,San Borja — Eduardo Ordoñez,900.0,100.0,1,30,14,67.0
+2,P02,Plaza Vea Villa María del Triunfo,1200,driving,10,1,VIV-618,Santiago de Surco — Calle Navarra 135,750.0,25.0,1,29,13,66.7
+2,P02,Plaza Vea Villa María del Triunfo,1200,driving,10,2,VIV-574,Santiago de Surco — Pasaje Hermes,880.0,26.0,1,27,13,66.3
+2,P02,Plaza Vea Villa María del Triunfo,1200,driving,10,3,VIV-1465,Santiago de Surco — Av Monte de los Olivos al 200,1100.0,27.0,1,25,12,64.7
+2,P02,Plaza Vea Villa María del Triunfo,1200,driving,10,4,VIV-637,"Santiago de Surco — Calle Los Albaricoques Nº164 ,Urbanización Valle Hermoso de Monterrico Santiago de Surco",1100.0,15.0,,26,12,62.0
+2,P02,Plaza Vea Villa María del Triunfo,1200,driving,10,5,VIV-635,Chorrillos — Tres Marias 300,500.0,10.0,1,34,17,60.7
+2,P02,Plaza Vea Villa María del Triunfo,1200,driving,10,6,VIV-581,San Borja — Calle Pietro Mascagni,750.0,30.0,2,35,16,60.1
+2,P02,Plaza Vea Villa María del Triunfo,1200,driving,10,7,VIV-609,Santiago de Surco — Cayo Roca Zela 120,1100.0,23.0,1,31,14,56.7
+2,P02,Plaza Vea Villa María del Triunfo,1200,driving,10,8,VIV-623,Santiago de Surco — Jr. Jerónimo de Aliaga N 290,1200.0,20.0,1,30,13,56.4
+2,P02,Plaza Vea Villa María del Triunfo,1200,driving,10,9,VIV-567,Santiago de Surco — ESTACION JORGE CHAVEZ,1200.0,22.0,1,32,16,54.1
+2,P02,Plaza Vea Villa María del Triunfo,1200,driving,10,10,VIV-595,Barranco — Calle Batta Isola 253,800.0,12.0,,40,20,49.4
+3,P03,Municipalidad de Chorrillos – Administración,1500,cycling,10,1,VIV-635,Chorrillos — Tres Marias 300,500.0,10.0,1,8,10,88.9
+3,P03,Municipalidad de Chorrillos – Administración,1500,cycling,10,2,VIV-574,Santiago de Surco — Pasaje Hermes,880.0,26.0,1,11,12,86.5
+3,P03,Municipalidad de Chorrillos – Administración,1500,cycling,10,3,VIV-595,Barranco — Calle Batta Isola 253,800.0,12.0,,14,18,79.1
+3,P03,Municipalidad de Chorrillos – Administración,1500,cycling,10,4,VIV-1629,Santiago de Surco — Nelson Queirolo al 100,1600.0,90.0,2,12,15,74.9
+3,P03,Municipalidad de Chorrillos – Administración,1500,cycling,10,5,VIV-618,Santiago de Surco — Calle Navarra 135,750.0,25.0,1,26,32,72.2
+3,P03,Municipalidad de Chorrillos – Administración,1500,cycling,10,6,VIV-567,Santiago de Surco — ESTACION JORGE CHAVEZ,1200.0,22.0,1,18,23,72.1
+3,P03,Municipalidad de Chorrillos – Administración,1500,cycling,10,7,VIV-1895,Santiago de Surco — Avenida Tomás Marsano,1500.0,65.0,2,19,27,71.2
+3,P03,Municipalidad de Chorrillos – Administración,1500,cycling,10,8,VIV-1465,Santiago de Surco — Av Monte de los Olivos al 200,1100.0,27.0,1,22,29,71.0
+3,P03,Municipalidad de Chorrillos – Administración,1500,cycling,10,9,VIV-1294,Miraflores — ALT CDRA 11 DE AV 28 DE JULIO,1100.0,30.0,1,24,30,69.3
+3,P03,Municipalidad de Chorrillos – Administración,1500,cycling,10,10,VIV-1228,Santiago de Surco — Avenida Paseo de la República 7822,1500.0,65.0,2,21,27,69.1
+4,P04,SUNAT – Oficina San Isidro,1800,walking,2,1,VIV-593,Miraflores — Calle Independencia,950.0,70.0,1,21,21,81.6
+4,P04,SUNAT – Oficina San Isidro,1800,walking,2,2,VIV-570,Lince — Avenida Petit Thouars 2660,1100.0,12.0,1,14,15,79.3
+4,P04,SUNAT – Oficina San Isidro,1800,walking,2,3,VIV-1238,San Isidro — Avenida Los Libertadores NUM 700,1500.0,28.0,1,15,15,79.3
+4,P04,SUNAT – Oficina San Isidro,1800,walking,2,4,VIV-1688,Lince — Prolongacion Iquitos al 2200,1600.0,41.0,2,17,17,78.0
+4,P04,SUNAT – Oficina San Isidro,1800,walking,2,5,VIV-607,Miraflores — Av. Paseo de la República 5600,1450.0,25.0,1,17,18,77.8
+4,P04,SUNAT – Oficina San Isidro,1800,walking,2,6,VIV-616,Miraflores — Calle Independencia,850.0,12.0,1,21,21,75.7
+4,P04,SUNAT – Oficina San Isidro,1800,walking,2,7,VIV-628,San Isidro — Guardia Civil,1000.0,14.0,1,21,22,73.6
+4,P04,SUNAT – Oficina San Isidro,1800,walking,2,8,VIV-643,Miraflores — Carlos Tenaud,1300.0,13.0,1,19,19,73.0
+4,P04,SUNAT – Oficina San Isidro,1800,walking,2,9,VIV-645,Miraflores — Calle General Suárez 5,1300.0,30.0,,24,24,72.6
+4,P04,SUNAT – Oficina San Isidro,1800,walking,2,10,VIV-1425,La Victoria — Avenida Javier Prado Este 1063,1850.0,40.0,1,19,19,72.3
+5,P05,SENASA – Sede La Molina,1300,cycling,10,1,VIV-573,La Molina — Bartolome de la Casas,680.0,28.0,1,7,8,93.2
+5,P05,SENASA – Sede La Molina,1300,cycling,10,2,VIV-1857,La Molina — CALLE ASUNCION 290,800.0,24.0,2,5,6,91.7
+5,P05,SENASA – Sede La Molina,1300,cycling,10,3,VIV-1635,La Molina — Managua al 100,1000.0,130.0,1,6,7,91.7
+5,P05,SENASA – Sede La Molina,1300,cycling,10,4,VIV-610,Ate — Naciones Unidas,650.0,15.0,1,7,9,89.7
+5,P05,SENASA – Sede La Molina,1300,cycling,10,5,VIV-620,La Molina — Jr. Machupiccu 308,800.0,700.0,4,11,13,87.5
+5,P05,SENASA – Sede La Molina,1300,cycling,10,6,VIV-640,Ate — Mayorazgo,580.0,15.0,1,12,14,86.3
+5,P05,SENASA – Sede La Molina,1300,cycling,10,7,VIV-585,La Molina — Los Agrologos 270,800.0,18.0,4,11,12,84.0
+5,P05,SENASA – Sede La Molina,1300,cycling,10,8,VIV-630,La Molina — Metro La Molina,1000.0,18.0,1,9,11,82.2
+5,P05,SENASA – Sede La Molina,1300,cycling,10,9,VIV-631,La Molina — Lomas de la Molina Vieja 384,680.0,25.0,1,17,22,81.9
+5,P05,SENASA – Sede La Molina,1300,cycling,10,10,VIV-647,La Molina — Av Los Frutales,850.0,18.0,1,13,16,81.2
+6,P06,Universidad Villarreal – Campus Miraflores,2000,cycling,10,1,VIV-613,Miraflores — CALLE MARQUEZ DE TORRE TAGLE 300,850.0,25.0,1,3,4,99.7
+6,P06,Universidad Villarreal – Campus Miraflores,2000,cycling,10,2,VIV-634,Miraflores — Calle Marquez de la Torre Tagle 300,700.0,15.0,1,4,6,97.8
+6,P06,Universidad Villarreal – Campus Miraflores,2000,cycling,10,3,VIV-593,Miraflores — Calle Independencia,950.0,70.0,1,6,9,97.1
+6,P06,Universidad Villarreal – Campus Miraflores,2000,cycling,10,4,VIV-575,Miraflores — Recavarren 160,1100.0,24.0,1,2,3,95.8
+6,P06,Universidad Villarreal – Campus Miraflores,2000,cycling,10,5,VIV-614,Miraflores — Avenida Santa Cruz 1300,800.0,10.0,1,4,5,94.3
+6,P06,Universidad Villarreal – Campus Miraflores,2000,cycling,10,6,VIV-919,Miraflores — Calle Ignacio Merino 500,1500.0,55.0,1,5,7,93.0
+6,P06,Universidad Villarreal – Campus Miraflores,2000,cycling,10,7,VIV-566,Miraflores — Calle General Córdova 775,1100.0,16.0,1,6,8,92.2
+6,P06,Universidad Villarreal – Campus Miraflores,2000,cycling,10,8,VIV-645,Miraflores — Calle General Suárez 5,1300.0,30.0,,6,9,91.6
+6,P06,Universidad Villarreal – Campus Miraflores,2000,cycling,10,9,VIV-616,Miraflores — Calle Independencia,850.0,12.0,1,6,9,91.1
+6,P06,Universidad Villarreal – Campus Miraflores,2000,cycling,10,10,VIV-1294,Miraflores — ALT CDRA 11 DE AV 28 DE JULIO,1100.0,30.0,1,8,10,90.3
+7,P07,Clínica San Pablo – Surco,1700,driving,10,1,VIV-623,Santiago de Surco — Jr. Jerónimo de Aliaga N 290,1200.0,20.0,1,5,3,89.9
+7,P07,Clínica San Pablo – Surco,1700,driving,10,2,VIV-581,San Borja — Calle Pietro Mascagni,750.0,30.0,2,10,6,89.9
+7,P07,Clínica San Pablo – Surco,1700,driving,10,3,VIV-637,"Santiago de Surco — Calle Los Albaricoques Nº164 ,Urbanización Valle Hermoso de Monterrico Santiago de Surco",1100.0,15.0,,5,3,89.1
+7,P07,Clínica San Pablo – Surco,1700,driving,10,4,VIV-576,San Borja — Calle 6 100,800.0,15.0,1,9,7,89.0
+7,P07,Clínica San Pablo – Surco,1700,driving,10,5,VIV-644,San Borja — Eduardo Ordoñez,900.0,100.0,1,11,8,88.0
+7,P07,Clínica San Pablo – Surco,1700,driving,10,6,VIV-620,La Molina — Jr. Machupiccu 308,800.0,700.0,4,13,8,88.0
+7,P07,Clínica San Pablo – Surco,1700,driving,10,7,VIV-631,La Molina — Lomas de la Molina Vieja 384,680.0,25.0,1,12,10,87.7
+7,P07,Clínica San Pablo – Surco,1700,driving,10,8,VIV-573,La Molina — Bartolome de la Casas,680.0,28.0,1,13,8,87.3
+7,P07,Clínica San Pablo – Surco,1700,driving,10,9,VIV-559,Surquillo — Av. Tomás Marsano 2385,500.0,20.0,1,13,8,87.2
+7,P07,Clínica San Pablo – Surco,1700,driving,10,10,VIV-618,Santiago de Surco — Calle Navarra 135,750.0,25.0,1,12,8,86.7
+8,P08,Banco de la Nación – Agencia Centro Lima,1100,cycling,10,1,VIV-558,"Lima — Lima, Lima Metropolitana, Lima, 15079, Perú",111.0,121.0,1,9,14,100.0
+8,P08,Banco de la Nación – Agencia Centro Lima,1100,cycling,10,2,VIV-569,San Martín de Porres — AV. ALFREDO MENDIOLA,390.0,25.0,1,14,20,88.2
+8,P08,Banco de la Nación – Agencia Centro Lima,1100,cycling,10,3,VIV-624,Breña — AV. TINGO MARIA 1579 BREÑA,600.0,14.0,1,12,20,81.2
+8,P08,Banco de la Nación – Agencia Centro Lima,1100,cycling,10,4,VIV-625,Chorrillos — CALLE ANDRES AVELINO CACERES MZA 24,450.0,20.0,1,17,27,81.0
+8,P08,Banco de la Nación – Agencia Centro Lima,1100,cycling,10,5,VIV-586,Breña — hospital del niño,750.0,10.0,1,11,18,79.4
+8,P08,Banco de la Nación – Agencia Centro Lima,1100,cycling,10,6,VIV-565,Lince — Jiron Carlos Arrieta 1240 lince,650.0,12.0,1,14,22,78.3
+8,P08,Banco de la Nación – Agencia Centro Lima,1100,cycling,10,7,VIV-1208,La Victoria — Jirón Alexander Von Humboldt & Paseo de la República,1150.0,45.0,1,11,17,77.6
+8,P08,Banco de la Nación – Agencia Centro Lima,1100,cycling,10,8,VIV-622,Pueblo Libre — Av. la Alborada 1721,400.0,10.0,1,19,29,76.6
+8,P08,Banco de la Nación – Agencia Centro Lima,1100,cycling,10,9,VIV-606,Jesús María — Avenida General Santa Cruz 448,800.0,10.0,1,13,20,76.4
+8,P08,Banco de la Nación – Agencia Centro Lima,1100,cycling,10,10,VIV-612,Los Olivos — yunques 5212,400.0,200.0,1,27,43,75.9
+9,P09,Colegio Fe y Alegría 17 – Docente,1200,driving,10,1,VIV-569,San Martín de Porres — AV. ALFREDO MENDIOLA,390.0,25.0,1,10,4,92.3
+9,P09,Colegio Fe y Alegría 17 – Docente,1200,driving,10,2,VIV-558,"Lima — Lima, Lima Metropolitana, Lima, 15079, Perú",111.0,121.0,1,17,8,92.3
+9,P09,Colegio Fe y Alegría 17 – Docente,1200,driving,10,3,VIV-612,Los Olivos — yunques 5212,400.0,200.0,1,21,11,82.0
+9,P09,Colegio Fe y Alegría 17 – Docente,1200,driving,10,4,VIV-622,Pueblo Libre — Av. la Alborada 1721,400.0,10.0,1,24,12,72.0
+9,P09,Colegio Fe y Alegría 17 – Docente,1200,driving,10,5,VIV-624,Breña — AV. TINGO MARIA 1579 BREÑA,600.0,14.0,1,24,11,69.3
+9,P09,Colegio Fe y Alegría 17 – Docente,1200,driving,10,6,VIV-594,San Miguel — Av. Lima 232,600.0,15.0,1,30,15,65.6
+9,P09,Colegio Fe y Alegría 17 – Docente,1200,driving,10,7,VIV-626,San Miguel — julian Apaza,750.0,16.0,,28,14,65.5
+9,P09,Colegio Fe y Alegría 17 – Docente,1200,driving,10,8,VIV-586,Breña — hospital del niño,750.0,10.0,1,25,12,65.2
+9,P09,Colegio Fe y Alegría 17 – Docente,1200,driving,10,9,VIV-571,San Miguel — UNIVERSITARIA 417,650.0,14.0,1,27,13,64.9
+9,P09,Colegio Fe y Alegría 17 – Docente,1200,driving,10,10,VIV-568,San Miguel — Calle: Saycusca 4ta Etapa Maranga San Miguel,750.0,14.0,1,27,13,63.8
+10,P10,Metro Chorrillos – Repositor,1000,driving,10,1,VIV-635,Chorrillos — Tres Marias 300,500.0,10.0,1,14,8,80.4
+10,P10,Metro Chorrillos – Repositor,1000,driving,10,2,VIV-574,Santiago de Surco — Pasaje Hermes,880.0,26.0,1,14,8,77.6
+10,P10,Metro Chorrillos – Repositor,1000,driving,10,3,VIV-595,Barranco — Calle Batta Isola 253,800.0,12.0,,12,7,76.0
+10,P10,Metro Chorrillos – Repositor,1000,driving,10,4,VIV-559,Surquillo — Av. Tomás Marsano 2385,500.0,20.0,1,29,13,66.6
+10,P10,Metro Chorrillos – Repositor,1000,driving,10,5,VIV-618,Santiago de Surco — Calle Navarra 135,750.0,25.0,1,29,14,64.4
+10,P10,Metro Chorrillos – Repositor,1000,driving,10,6,VIV-632,Miraflores — Calle Ramón Ribeyro,990.0,10.0,1,20,10,63.3
+10,P10,Metro Chorrillos – Repositor,1000,driving,10,7,VIV-1294,Miraflores — ALT CDRA 11 DE AV 28 DE JULIO,1100.0,30.0,1,20,10,62.0
+10,P10,Metro Chorrillos – Repositor,1000,driving,10,8,VIV-593,Miraflores — Calle Independencia,950.0,70.0,1,30,14,61.2
+10,P10,Metro Chorrillos – Repositor,1000,driving,10,9,VIV-634,Miraflores — Calle Marquez de la Torre Tagle 300,700.0,15.0,1,31,15,60.8
+10,P10,Metro Chorrillos – Repositor,1000,driving,10,10,VIV-613,Miraflores — CALLE MARQUEZ DE TORRE TAGLE 300,850.0,25.0,1,31,14,60.0
+11,P11,Hospital Casimiro Ulloa – Enfermería,1400,walking,2,1,VIV-632,Miraflores — Calle Ramón Ribeyro,990.0,10.0,1,5,5,87.3
+11,P11,Hospital Casimiro Ulloa – Enfermería,1400,walking,2,2,VIV-1294,Miraflores — ALT CDRA 11 DE AV 28 DE JULIO,1100.0,30.0,1,14,14,80.8
+11,P11,Hospital Casimiro Ulloa – Enfermería,1400,walking,2,3,VIV-1480,Santiago de Surco — Jirón Carlos Baca Flor 612,1300.0,30.0,1,17,16,75.7
+11,P11,Hospital Casimiro Ulloa – Enfermería,1400,walking,2,4,VIV-601,Miraflores — Ave. Reducto 1535,1200.0,18.0,1,17,17,74.7
+11,P11,Hospital Casimiro Ulloa – Enfermería,1400,walking,2,5,VIV-582,Miraflores — Av. Reducto 1535,1300.0,18.0,1,17,17,73.3
+11,P11,Hospital Casimiro Ulloa – Enfermería,1400,walking,2,6,VIV-602,"Miraflores — Reducto 1535, Miraflores",1300.0,20.0,1,17,17,73.3
+11,P11,Hospital Casimiro Ulloa – Enfermería,1400,walking,2,7,VIV-559,Surquillo — Av. Tomás Marsano 2385,500.0,20.0,1,27,26,72.5
+11,P11,Hospital Casimiro Ulloa – Enfermería,1400,walking,2,8,VIV-1795,Santiago de Surco — Avenida Alfredo Benavides,1300.0,30.0,1,23,23,69.7
+11,P11,Hospital Casimiro Ulloa – Enfermería,1400,walking,2,9,VIV-584,Miraflores — Alejandro Deustua,1000.0,14.0,1,23,22,68.7
+11,P11,Hospital Casimiro Ulloa – Enfermería,1400,walking,2,10,VIV-575,Miraflores — Recavarren 160,1100.0,24.0,1,27,24,64.2
+12,P12,Ministerio de Educación – MINEDU,1600,driving,10,1,VIV-579,San Isidro — Calle 26 146,1150.0,18.0,1,2,1,92.6
+12,P12,Ministerio de Educación – MINEDU,1600,driving,10,2,VIV-600,San Borja — Av. Aviación 2515,700.0,12.0,1,6,2,91.6
+12,P12,Ministerio de Educación – MINEDU,1600,driving,10,3,VIV-644,San Borja — Eduardo Ordoñez,900.0,100.0,1,9,5,90.5
+12,P12,Ministerio de Educación – MINEDU,1600,driving,10,4,VIV-619,San Luis — Jr. Palma De Mallorca 221,480.0,9.0,1,9,4,89.2
+12,P12,Ministerio de Educación – MINEDU,1600,driving,10,5,VIV-559,Surquillo — Av. Tomás Marsano 2385,500.0,20.0,1,12,5,89.2
+12,P12,Ministerio de Educación – MINEDU,1600,driving,10,6,VIV-580,San Borja — Calle Nicanor Arteaga,850.0,18.0,1,7,3,88.9
+12,P12,Ministerio de Educación – MINEDU,1600,driving,10,7,VIV-639,San Borja — Calle Sisley San Borja,1300.0,20.0,1,5,2,87.9
+12,P12,Ministerio de Educación – MINEDU,1600,driving,10,8,VIV-628,San Isidro — Guardia Civil,1000.0,14.0,1,6,2,87.8
+12,P12,Ministerio de Educación – MINEDU,1600,driving,10,9,VIV-615,San Borja — Calle Neper,850.0,15.0,1,9,4,87.8
+12,P12,Ministerio de Educación – MINEDU,1600,driving,10,10,VIV-581,San Borja — Calle Pietro Mascagni,750.0,30.0,2,13,6,86.6
+13,P13,UGEL 01 – Sede San Juan de Miraflores,1300,cycling,10,1,VIV-618,Santiago de Surco — Calle Navarra 135,750.0,25.0,1,13,17,84.3
+13,P13,UGEL 01 – Sede San Juan de Miraflores,1300,cycling,10,2,VIV-574,Santiago de Surco — Pasaje Hermes,880.0,26.0,1,12,17,83.2
+13,P13,UGEL 01 – Sede San Juan de Miraflores,1300,cycling,10,3,VIV-1465,Santiago de Surco — Av Monte de los Olivos al 200,1100.0,27.0,1,10,12,82.0
+13,P13,UGEL 01 – Sede San Juan de Miraflores,1300,cycling,10,4,VIV-559,Surquillo — Av. Tomás Marsano 2385,500.0,20.0,1,20,28,78.7
+13,P13,UGEL 01 – Sede San Juan de Miraflores,1300,cycling,10,5,VIV-581,San Borja — Calle Pietro Mascagni,750.0,30.0,2,19,26,77.3
+13,P13,UGEL 01 – Sede San Juan de Miraflores,1300,cycling,10,6,VIV-609,Santiago de Surco — Cayo Roca Zela 120,1100.0,23.0,1,15,19,75.3
+13,P13,UGEL 01 – Sede San Juan de Miraflores,1300,cycling,10,7,VIV-637,"Santiago de Surco — Calle Los Albaricoques Nº164 ,Urbanización Valle Hermoso de Monterrico Santiago de Surco",1100.0,15.0,,16,20,74.5
+13,P13,UGEL 01 – Sede San Juan de Miraflores,1300,cycling,10,8,VIV-1795,Santiago de Surco — Avenida Alfredo Benavides,1300.0,30.0,1,15,20,74.1
+13,P13,UGEL 01 – Sede San Juan de Miraflores,1300,cycling,10,9,VIV-1480,Santiago de Surco — Jirón Carlos Baca Flor 612,1300.0,30.0,1,16,23,72.7
+13,P13,UGEL 01 – Sede San Juan de Miraflores,1300,cycling,10,10,VIV-644,San Borja — Eduardo Ordoñez,900.0,100.0,1,24,31,72.3
+14,P14,BCP – Agencia Chorrillos,1500,driving,10,1,VIV-595,Barranco — Calle Batta Isola 253,800.0,12.0,,8,5,85.0
+14,P14,BCP – Agencia Chorrillos,1500,driving,10,2,VIV-635,Chorrillos — Tres Marias 300,500.0,10.0,1,14,8,83.0
+14,P14,BCP – Agencia Chorrillos,1500,driving,10,3,VIV-574,Santiago de Surco — Pasaje Hermes,880.0,26.0,1,16,9,80.2
+14,P14,BCP – Agencia Chorrillos,1500,driving,10,4,VIV-567,Santiago de Surco — ESTACION JORGE CHAVEZ,1200.0,22.0,1,12,7,78.9
+14,P14,BCP – Agencia Chorrillos,1500,driving,10,5,VIV-1294,Miraflores — ALT CDRA 11 DE AV 28 DE JULIO,1100.0,30.0,1,14,8,78.9
+14,P14,BCP – Agencia Chorrillos,1500,driving,10,6,VIV-601,Miraflores — Ave. Reducto 1535,1200.0,18.0,1,12,7,77.8
+14,P14,BCP – Agencia Chorrillos,1500,driving,10,7,VIV-582,Miraflores — Av. Reducto 1535,1300.0,18.0,1,12,7,76.5
+14,P14,BCP – Agencia Chorrillos,1500,driving,10,8,VIV-602,"Miraflores — Reducto 1535, Miraflores",1300.0,20.0,1,12,7,76.5
+14,P14,BCP – Agencia Chorrillos,1500,driving,10,9,VIV-880,Santiago de Surco — Makro,1600.0,78.0,2,12,7,74.7
+14,P14,BCP – Agencia Chorrillos,1500,driving,10,10,VIV-632,Miraflores — Calle Ramón Ribeyro,990.0,10.0,1,15,8,74.3
+15,P15,Tottus Villa El Salvador – Logística,1100,cycling,10,1,VIV-635,Chorrillos — Tres Marias 300,500.0,10.0,1,22,29,72.2
+15,P15,Tottus Villa El Salvador – Logística,1100,cycling,10,2,VIV-574,Santiago de Surco — Pasaje Hermes,880.0,26.0,1,23,30,68.7
+15,P15,Tottus Villa El Salvador – Logística,1100,cycling,10,3,VIV-618,Santiago de Surco — Calle Navarra 135,750.0,25.0,1,33,42,61.7
+15,P15,Tottus Villa El Salvador – Logística,1100,cycling,10,4,VIV-1465,Santiago de Surco — Av Monte de los Olivos al 200,1100.0,27.0,1,29,38,59.0
+15,P15,Tottus Villa El Salvador – Logística,1100,cycling,10,5,VIV-595,Barranco — Calle Batta Isola 253,800.0,12.0,,34,43,54.2
+15,P15,Tottus Villa El Salvador – Logística,1100,cycling,10,6,VIV-637,"Santiago de Surco — Calle Los Albaricoques Nº164 ,Urbanización Valle Hermoso de Monterrico Santiago de Surco",1100.0,15.0,,35,43,51.4
+15,P15,Tottus Villa El Salvador – Logística,1100,cycling,10,7,VIV-609,Santiago de Surco — Cayo Roca Zela 120,1100.0,23.0,1,35,45,51.3
+15,P15,Tottus Villa El Salvador – Logística,1100,cycling,10,8,VIV-567,Santiago de Surco — ESTACION JORGE CHAVEZ,1200.0,22.0,1,35,45,45.4
+15,P15,Tottus Villa El Salvador – Logística,1100,cycling,10,9,VIV-632,Miraflores — Calle Ramón Ribeyro,990.0,10.0,1,40,50,45.1
+15,P15,Tottus Villa El Salvador – Logística,1100,cycling,10,10,VIV-601,Miraflores — Ave. Reducto 1535,1200.0,18.0,1,40,53,40.7
+16,P16,Essalud – Hospital Rebagliati Emergencias,1800,walking,2,1,VIV-564,Jesús María — Salaverry 18,800.0,15.0,1,14,14,86.2
+16,P16,Essalud – Hospital Rebagliati Emergencias,1800,walking,2,2,VIV-1287,Lince — Jirón Domingo Cueto,1900.0,50.0,1,5,7,84.7
+16,P16,Essalud – Hospital Rebagliati Emergencias,1800,walking,2,3,VIV-838,Jesús María — Av. Salaverry 10,1400.0,30.0,1,12,13,83.1
+16,P16,Essalud – Hospital Rebagliati Emergencias,1800,walking,2,4,VIV-565,Lince — Jiron Carlos Arrieta 1240 lince,650.0,12.0,1,17,17,81.7
+16,P16,Essalud – Hospital Rebagliati Emergencias,1800,walking,2,5,VIV-588,Lince — Av. Crnel Jose Leal 1300,800.0,15.0,1,19,20,81.3
+16,P16,Essalud – Hospital Rebagliati Emergencias,1800,walking,2,6,VIV-709,Lince — Av Arequipa 1492,2000.0,55.0,2,7,10,79.6
+16,P16,Essalud – Hospital Rebagliati Emergencias,1800,walking,2,7,VIV-572,Lima — Jirón Montero Rosas 1354,1400.0,20.0,1,14,14,79.6
+16,P16,Essalud – Hospital Rebagliati Emergencias,1800,walking,2,8,VIV-813,Jesús María — Av. Mariátegui 12,1700.0,100.0,2,16,16,78.6
+16,P16,Essalud – Hospital Rebagliati Emergencias,1800,walking,2,9,VIV-589,Lince — Av. Crnel Jose Leal 1300,1200.0,15.0,1,19,20,76.9
+16,P16,Essalud – Hospital Rebagliati Emergencias,1800,walking,2,10,VIV-587,Jesús María — Jirón Lloque Yupanqui 1223,850.0,12.0,1,20,20,76.7
+17,P17,Municipalidad de Lima – Subgerencia Rentas,1200,driving,10,1,VIV-558,"Lima — Lima, Lima Metropolitana, Lima, 15079, Perú",111.0,121.0,1,12,6,97.2
+17,P17,Municipalidad de Lima – Subgerencia Rentas,1200,driving,10,2,VIV-569,San Martín de Porres — AV. ALFREDO MENDIOLA,390.0,25.0,1,16,6,86.8
+17,P17,Municipalidad de Lima – Subgerencia Rentas,1200,driving,10,3,VIV-1208,La Victoria — Jirón Alexander Von Humboldt & Paseo de la República,1150.0,45.0,1,10,7,81.7
+17,P17,Municipalidad de Lima – Subgerencia Rentas,1200,driving,10,4,VIV-612,Los Olivos — yunques 5212,400.0,200.0,1,22,14,81.5
+17,P17,Municipalidad de Lima – Subgerencia Rentas,1200,driving,10,5,VIV-565,Lince — Jiron Carlos Arrieta 1240 lince,650.0,12.0,1,13,9,80.3
+17,P17,Municipalidad de Lima – Subgerencia Rentas,1200,driving,10,6,VIV-624,Breña — AV. TINGO MARIA 1579 BREÑA,600.0,14.0,1,16,9,78.2
+17,P17,Municipalidad de Lima – Subgerencia Rentas,1200,driving,10,7,VIV-586,Breña — hospital del niño,750.0,10.0,1,13,7,78.1
+17,P17,Municipalidad de Lima – Subgerencia Rentas,1200,driving,10,8,VIV-625,Chorrillos — CALLE ANDRES AVELINO CACERES MZA 24,450.0,20.0,1,21,12,77.9
+17,P17,Municipalidad de Lima – Subgerencia Rentas,1200,driving,10,9,VIV-622,Pueblo Libre — Av. la Alborada 1721,400.0,10.0,1,20,11,76.0
+17,P17,Municipalidad de Lima – Subgerencia Rentas,1200,driving,10,10,VIV-606,Jesús María — Avenida General Santa Cruz 448,800.0,10.0,1,15,9,75.8
+18,P18,Saga Falabella – Jockey Plaza,1400,cycling,10,1,VIV-621,Santiago de Surco — Calle Mar del Norte 137,1200.0,25.0,3,6,9,87.8
+18,P18,Saga Falabella – Jockey Plaza,1400,cycling,10,2,VIV-592,San Borja — VÍA BOYLE,800.0,8.0,1,9,17,85.4
+18,P18,Saga Falabella – Jockey Plaza,1400,cycling,10,3,VIV-620,La Molina — Jr. Machupiccu 308,800.0,700.0,4,14,19,85.1
+18,P18,Saga Falabella – Jockey Plaza,1400,cycling,10,4,VIV-573,La Molina — Bartolome de la Casas,680.0,28.0,1,15,20,84.4
+18,P18,Saga Falabella – Jockey Plaza,1400,cycling,10,5,VIV-647,La Molina — Av Los Frutales,850.0,18.0,1,11,14,84.3
+18,P18,Saga Falabella – Jockey Plaza,1400,cycling,10,6,VIV-576,San Borja — Calle 6 100,800.0,15.0,1,13,19,82.8
+18,P18,Saga Falabella – Jockey Plaza,1400,cycling,10,7,VIV-585,La Molina — Los Agrologos 270,800.0,18.0,4,13,17,82.3
+18,P18,Saga Falabella – Jockey Plaza,1400,cycling,10,8,VIV-630,La Molina — Metro La Molina,1000.0,18.0,1,11,15,81.3
+18,P18,Saga Falabella – Jockey Plaza,1400,cycling,10,9,VIV-625,Chorrillos — CALLE ANDRES AVELINO CACERES MZA 24,450.0,20.0,1,18,27,81.1
+18,P18,Saga Falabella – Jockey Plaza,1400,cycling,10,10,VIV-581,San Borja — Calle Pietro Mascagni,750.0,30.0,2,18,27,79.0
+19,P19,IE Rosa de América – Docente primaria,1210,cycling,10,1,VIV-635,Chorrillos — Tres Marias 300,500.0,10.0,1,29,38,66.1
+19,P19,IE Rosa de América – Docente primaria,1210,cycling,10,2,VIV-574,Santiago de Surco — Pasaje Hermes,880.0,26.0,1,30,39,63.7
+19,P19,IE Rosa de América – Docente primaria,1210,cycling,10,3,VIV-618,Santiago de Surco — Calle Navarra 135,750.0,25.0,1,38,47,57.3
+19,P19,IE Rosa de América – Docente primaria,1210,cycling,10,4,VIV-1465,Santiago de Surco — Av Monte de los Olivos al 200,1100.0,27.0,1,34,44,55.3
+19,P19,IE Rosa de América – Docente primaria,1210,cycling,10,5,VIV-637,"Santiago de Surco — Calle Los Albaricoques Nº164 ,Urbanización Valle Hermoso de Monterrico Santiago de Surco",1100.0,15.0,,36,45,51.6
+19,P19,IE Rosa de América – Docente primaria,1210,cycling,10,6,VIV-609,Santiago de Surco — Cayo Roca Zela 120,1100.0,23.0,1,38,48,49.8
+19,P19,IE Rosa de América – Docente primaria,1210,cycling,10,7,VIV-595,Barranco — Calle Batta Isola 253,800.0,12.0,,40,52,49.6
+19,P19,IE Rosa de América – Docente primaria,1210,cycling,10,8,VIV-567,Santiago de Surco — ESTACION JORGE CHAVEZ,1200.0,22.0,1,40,51,46.6
+19,P19,IE Rosa de América – Docente primaria,1210,cycling,10,9,VIV-1480,Santiago de Surco — Jirón Carlos Baca Flor 612,1300.0,30.0,1,40,51,43.6
+19,P19,IE Rosa de América – Docente primaria,1210,cycling,10,10,VIV-1795,Santiago de Surco — Avenida Alfredo Benavides,1300.0,30.0,1,40,51,43.4
+20,P20,Municipalidad VES – Área Social,1800,cycling,10,1,VIV-635,Chorrillos — Tres Marias 300,500.0,10.0,1,37,46,60.5
+20,P20,Municipalidad VES – Área Social,1800,cycling,10,2,VIV-574,Santiago de Surco — Pasaje Hermes,880.0,26.0,1,39,49,59.5
+20,P20,Municipalidad VES – Área Social,1800,cycling,10,3,VIV-1895,Santiago de Surco — Avenida Tomás Marsano,1500.0,65.0,2,36,48,56.9
+20,P20,Municipalidad VES – Área Social,1800,cycling,10,4,VIV-1629,Santiago de Surco — Nelson Queirolo al 100,1600.0,90.0,2,36,46,56.1
+20,P20,Municipalidad VES – Área Social,1800,cycling,10,5,VIV-1046,Santiago de Surco — Calle Rodrigo Franco MZ B 5,1800.0,55.0,2,35,44,55.1
+20,P20,Municipalidad VES – Área Social,1800,cycling,10,6,VIV-1726,Santiago de Surco — Av. Los Próceres 970,1750.0,79.0,3,36,46,54.4
+20,P20,Municipalidad VES – Área Social,1800,cycling,10,7,VIV-1465,Santiago de Surco — Av Monte de los Olivos al 200,1100.0,27.0,1,42,53,53.6
+20,P20,Municipalidad VES – Área Social,1800,cycling,10,8,VIV-1692,Santiago de Surco — Juan Chavez Aguirre,1900.0,85.0,,36,46,50.8
+20,P20,Municipalidad VES – Área Social,1800,cycling,10,9,VIV-979,Santiago de Surco — Jr. Apolo Sagitario Surco,1900.0,95.0,3,37,47,49.7
+20,P20,Municipalidad VES – Área Social,1800,cycling,10,10,VIV-1648,Santiago de Surco — AV. Guardia Civil SUR Cruce CON EL Tren DEL Saber Stgo DE Surco,2000.0,110.0,3,36,46,47.6

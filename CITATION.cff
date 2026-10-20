@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "MiCasita: research data and code for XGBoost-based travel-time correction in commute-aware housing recommendation in Metropolitan Lima"
+type: dataset
+version: "1.0.0"
+date-released: "2026-10-20"
+license: MIT
+authors:
+  - family-names: "Astuyauri-Calderon"
+    given-names: "Jherson David"
+    orcid: "https://orcid.org/0009-0002-1313-6532"
+    affiliation: "Universidad Peruana de Ciencias Aplicadas (UPC)"
+  - family-names: "Calderon-Huaman"
+    given-names: "Jose Daniel Mario"
+    orcid: "https://orcid.org/0009-0002-8131-0707"
+    affiliation: "Universidad Peruana de Ciencias Aplicadas (UPC)"
+  - family-names: "Castro-Veramendi"
+    given-names: "Rafael Oswaldo"
+    orcid: "https://orcid.org/0000-0002-7813-9307"
+    affiliation: "Universidad Peruana de Ciencias Aplicadas (UPC)"

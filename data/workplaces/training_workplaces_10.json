@@ -1,0 +1,72 @@
+[
+ {
+  "id": "W01",
+  "hub": "Corporativo",
+  "nombre": "San Isidro Financiero",
+  "lat": -12.0961,
+  "lon": -77.0264
+ },
+ {
+  "id": "W02",
+  "hub": "Corporativo",
+  "nombre": "Miraflores Centro",
+  "lat": -12.1211,
+  "lon": -77.03
+ },
+ {
+  "id": "W03",
+  "hub": "Corporativo",
+  "nombre": "Surco (El Derby / Manuel Olguín)",
+  "lat": -12.0976,
+  "lon": -76.9728
+ },
+ {
+  "id": "W04",
+  "hub": "Corporativo",
+  "nombre": "Magdalena (hub Javier Prado Oeste)",
+  "lat": -12.094,
+  "lon": -77.0573
+ },
+ {
+  "id": "W05",
+  "hub": "Comercial",
+  "nombre": "Cercado de Lima (centro histórico)",
+  "lat": -12.0458,
+  "lon": -77.0305
+ },
+ {
+  "id": "W06",
+  "hub": "Comercial",
+  "nombre": "La Victoria (emporio Gamarra)",
+  "lat": -12.0704,
+  "lon": -77.0125
+ },
+ {
+  "id": "W07",
+  "hub": "Comercial/Norte",
+  "nombre": "Independencia / Los Olivos (MegaPlaza)",
+  "lat": -11.9951,
+  "lon": -77.0617
+ },
+ {
+  "id": "W08",
+  "hub": "Industrial",
+  "nombre": "Ate / Santa Anita (Carretera Central)",
+  "lat": -12.043,
+  "lon": -76.95
+ },
+ {
+  "id": "W09",
+  "hub": "Industrial/Puerto",
+  "nombre": "Callao (eje Av. Argentina / puerto)",
+  "lat": -12.0485,
+  "lon": -77.1015
+ },
+ {
+  "id": "W10",
+  "hub": "Industrial",
+  "nombre": "Villa El Salvador (parque industrial)",
+  "lat": -12.1951,
+  "lon": -76.9357
+ }
+]
