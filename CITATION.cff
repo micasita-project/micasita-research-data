@@ -2,10 +2,10 @@ cff-version: 1.2.0
 message: "If you use this data or code, please cite it as below."
 title: "MiCasita: research data and code for XGBoost-based travel-time correction in commute-aware housing recommendation in Metropolitan Lima"
 type: dataset
-version: "1.0.0"
-date-released: "2026-10-20"
+version: "1.1.1"
+date-released: "2026-11-09"
 license: MIT
-doi: 10.5281/zenodo.23510695
+doi: 10.5281/zenodo.23510694
 repository-code: "https://github.com/micasita-project/micasita-research-data"
 authors:
   - family-names: "Astuyauri-Calderon"
