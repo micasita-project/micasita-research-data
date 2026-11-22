@@ -28,7 +28,7 @@ scripts/
   ablation_ndcg5.py                      Ranking ablation: utility with uncorrected OSRM time and corrected time only
   utility_robustness.py                  Contribution of each utility term, weight sensitivity, learned weights, value of time
   compute_sus.py                         Usability results: SUS score, bands, Wilcoxon vs. 68, Cronbach's alpha, tasks, Top-1 acceptance
-  compare_travel_time_models.py          Compares XGBoost with linear regression, random forest, histogram gradient boosting and an MLP
+  compare_travel_time_models.py          Compares XGBoost with linear regression, a linear calibration per mode and time slot, random forest, histogram gradient boosting and an MLP
   benchmark_api_latency.py               API response-time benchmark (requires a running backend)
 evaluation/
   model/travel_time_model_evaluation.md  Cross-validated metrics of the correction model
