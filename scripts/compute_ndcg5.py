@@ -94,6 +94,10 @@ def main():
     pierde_osrm = sum(r[1] < r[3] - eps for r in resultados)
     minimo = min(r[1] for r in resultados)
     maximo = max(r[1] for r in resultados)
+    # Puesto que el evaluador dio a la vivienda que el modelo puso primera.
+    puesto_top1 = [next(it["humano"] for it in items if it["modelo"] == 1)
+                   for _, items in sorted(por_escenario.items())]
+    top1_en = {k: sum(p <= k for p in puesto_top1) for k in (1, 3, 5)}
 
     print(f"{'Escenario':<10}{'Modelo':>10}{'Precio':>10}{'OSRM':>10}")
     for esc, mod, pre, osrm in resultados:
@@ -102,6 +106,8 @@ def main():
     print(f"Modelo: mínimo {minimo:.4f}, máximo {maximo:.4f}")
     print(f"Supera a precio en {gana_precio}/{n}; a OSRM en {gana_osrm} "
           f"({empata_osrm} empates, {pierde_osrm} por debajo)")
+    print(f"Vivienda Top-1 del modelo en el puesto humano 1: {top1_en[1]}/{n}; "
+          f"entre los 3 primeros: {top1_en[3]}/{n}; entre los 5 primeros: {top1_en[5]}/{n}")
 
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         f.write("# NDCG@5 — recomputado desde datos crudos\n\n")
@@ -122,7 +128,9 @@ def main():
                 f"baseline precio {m_precio:.4f}; baseline OSRM crudo {m_osrm:.4f}.\n\n")
         f.write(f"El modelo supera al baseline de precio en {gana_precio} de {n} escenarios "
                 f"y al de OSRM crudo en {gana_osrm} ({empata_osrm} empates, "
-                f"{pierde_osrm} por debajo).\n")
+                f"{pierde_osrm} por debajo).\n\n")
+        f.write(f"La vivienda que el modelo puso primera fue la primera del evaluador en {top1_en[1]} de {n} "
+                f"escenarios, estuvo entre sus 3 primeras en {top1_en[3]} y entre sus 5 primeras en {top1_en[5]}.\n")
 
     print(f"\nGuardado: {OUT_PATH}")
 

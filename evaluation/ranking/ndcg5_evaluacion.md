@@ -30,3 +30,5 @@ Relevancia por tramos según el ranking humano: 1.0 (puestos 1-2), 0.5 (puestos 
 **NDCG@5 promedio (N=20): modelo 0.8664** (mínimo 0.6972, máximo 1.0000); baseline precio 0.5952; baseline OSRM crudo 0.7359.
 
 El modelo supera al baseline de precio en 20 de 20 escenarios y al de OSRM crudo en 14 (4 empates, 2 por debajo).
+
+La vivienda que el modelo puso primera fue la primera del evaluador en 9 de 20 escenarios, estuvo entre sus 3 primeras en 17 y entre sus 5 primeras en 20.

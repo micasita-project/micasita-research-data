@@ -6,7 +6,7 @@ Data, code and trained model supporting the paper *Commute-aware rental housing 
 
 MiCasita is a mobile application that ranks rental homes in Metropolitan Lima by the commute to the user's workplace. A routing engine (OSRM) estimates a free-flow travel time, an XGBoost regressor corrects it to a traffic-aware time, and an explicit scoring function (`match_score`, 0–100) combines the corrected time with budget, distance and floor area.
 
-Corresponding author: u202213076@upc.edu.pe
+Corresponding author: Rafael Oswaldo Castro-Veramendi (rafael.castro@upc.edu.pe)
 
 ## Contents
 
@@ -24,7 +24,7 @@ scripts/
   validar_coordenadas.py                 Checks that coordinates snap to the OSRM road network
   recommendation_service.py              Recommendation pipeline and the explicit scoring function (calcular_match_score)
   run_evaluation.py                      Produces the model's top-10 ranking for the 20 evaluation scenarios (requires the database)
-  compute_ndcg5.py                       Recomputes NDCG@5 of the model and of the two baselines from the scenario sheet
+  compute_ndcg5.py                       Recomputes NDCG@5 of the model and of the two baselines, and the evaluator's rank of the model's first choice
   ablation_ndcg5.py                      Ranking ablation: utility with uncorrected OSRM time and corrected time only
   utility_robustness.py                  Contribution of each utility term, weight sensitivity, learned weights, value of time
   compute_sus.py                         Usability results: SUS score, bands, Wilcoxon vs. 68, Cronbach's alpha, tasks, Top-1 acceptance
@@ -55,7 +55,8 @@ Python 3.11 and `pip install -r requirements.txt`. Run everything from this fold
 PYTHONPATH=. python ml_pipeline/train_travel_time.py
 
 # Ranking evaluation: NDCG@5 of the model and of the price-only and OSRM-only baselines
-# (mean 0.866 / 0.595 / 0.736).
+# (mean 0.866 / 0.595 / 0.736); the model's first choice was the evaluator's first in 9 of 20 scenarios,
+# in the evaluator's top three in 17 and in the top five in 20.
 python scripts/compute_ndcg5.py
 
 # Ranking ablation (utility with uncorrected OSRM time 0.778; corrected time only 0.726).
@@ -64,7 +65,8 @@ python scripts/ablation_ndcg5.py
 # Robustness of the utility: term contributions, weight sensitivity, learned weights, value of time.
 python scripts/utility_robustness.py
 
-# Comparison of travel-time regressors under the same grouped cross-validation.
+# Comparison of travel-time regressors under the same grouped cross-validation
+# (MAE: uncorrected OSRM 13.52, XGBoost 3.76, linear calibration per mode and time slot 3.04 minutes).
 PYTHONPATH=. python scripts/compare_travel_time_models.py
 
 # Hyperparameter search with nested grouped cross-validation (fixed 3.76 vs. tuned 3.71 minutes).
